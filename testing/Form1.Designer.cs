@@ -35,6 +35,7 @@
             this.rjTextBox2 = new RJCodeAdvance.RJControls.RJTextBox();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -132,10 +133,21 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(78, 215);
+            this.dateTimePicker1.Location = new System.Drawing.Point(77, 227);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 6;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(88, 193);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(118, 17);
+            this.radioButton1.TabIndex = 7;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "verificar contraseña";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -143,6 +155,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(393, 356);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.label3);
@@ -169,6 +182,7 @@
         private RJCodeAdvance.RJControls.RJTextBox rjTextBox2;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
