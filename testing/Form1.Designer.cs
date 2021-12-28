@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.rjTextBox2 = new RJCodeAdvance.RJControls.RJTextBox();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -130,15 +130,12 @@
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             // 
-            // checkBox1
+            // dateTimePicker1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(59, 207);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(139, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Recordar mi contraseña";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.dateTimePicker1.Location = new System.Drawing.Point(78, 215);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 6;
             // 
             // Form1
             // 
@@ -146,7 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(393, 356);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.rjTextBox2);
@@ -171,7 +168,7 @@
         private System.Windows.Forms.Label label3;
         private RJCodeAdvance.RJControls.RJTextBox rjTextBox2;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
